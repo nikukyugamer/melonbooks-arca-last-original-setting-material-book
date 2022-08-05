@@ -1,6 +1,5 @@
-tmp/
-output/*
-!output/.keep
+tmp/*
+!tmp/.keep
 
 # Logs
 logs

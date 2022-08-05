@@ -23,3 +23,6 @@ jobs:
     - name: ESLint
       run: |
         npx eslint
+    - name: 簡易 Spec の実行
+      run: |
+        npx ts-node spec.ts
