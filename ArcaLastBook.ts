@@ -43,13 +43,15 @@ class ArcaLastBook {
 
     // 1ページ目
     this.waitForSeconds(5)
-    await bookPage.screenshot({ path: 'tmp/screenshot_newPage_01.png' })
+    await bookPage.screenshot({ path: 'tmp/screenshot_newPage_表紙.png' })
 
     // 以降、ページめくり
     // TODO: ループする
-    await bookPage.keyboard.press('ArrowLeft')
-    this.waitForSeconds(5)
-    await bookPage.screenshot({ path: 'tmp/screenshot_newPage_02.png' })
+    for (let i = 0; i < 5; i++) {
+      await bookPage.keyboard.press('ArrowLeft')
+      this.waitForSeconds(5)
+      await bookPage.screenshot({ path: `tmp/screenshot_newPage_${i}.png` })
+    }
 
     await browser.close()
   }
