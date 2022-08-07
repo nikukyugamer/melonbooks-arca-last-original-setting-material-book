@@ -61,6 +61,16 @@ class ArcaLastBook {
     return true
   }
 
+  sleep(msec: number) {
+    const wait = require('timers/promises').setTimeout;
+
+    (async () => {
+      console.log('Start');
+      await wait(msec);
+      console.log('End');
+    })();
+  }
+
   // TODO: 実装する
   divideImageFile(path: string) {
     // const imageFile = fs.readFileSync(path)
