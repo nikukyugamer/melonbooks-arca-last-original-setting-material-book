@@ -4,7 +4,7 @@
   "devDependencies": {
     "@types/node": "18.16.13",
     "dotenv": "16.0.3",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "eslint-config-prettier": "8.8.0",
     "playwright": "1.33.0",
