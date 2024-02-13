@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "@types/node": "20.11.17",
-    "dotenv": "16.4.3",
+    "dotenv": "16.4.4",
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "9.1.0",
