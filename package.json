@@ -7,7 +7,7 @@
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.1",
     "eslint-config-prettier": "9.1.0",
-    "playwright": "1.42.0",
+    "playwright": "1.42.1",
     "prettier": "3.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
