@@ -5,7 +5,7 @@
     "@types/node": "22.13.1",
     "dotenv": "16.4.7",
     "eslint": "8.57.1",
-    "eslint-config-next": "15.1.6",
+    "eslint-config-next": "15.1.7",
     "eslint-config-prettier": "10.0.1",
     "playwright": "1.50.1",
     "prettier": "3.5.0",
