@@ -6,7 +6,7 @@
     "dotenv": "17.2.0",
     "eslint": "8.57.1",
     "eslint-config-next": "15.4.2",
-    "eslint-config-prettier": "10.1.5",
+    "eslint-config-prettier": "10.1.8",
     "playwright": "1.54.1",
     "prettier": "3.6.2",
     "ts-node": "10.9.2",
