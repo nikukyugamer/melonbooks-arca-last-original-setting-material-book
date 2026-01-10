@@ -2,7 +2,7 @@
   "name": "melonbooks-arca-last-original-setting-material-book",
   "version": "0.0.1",
   "devDependencies": {
-    "@types/node": "24.10.4",
+    "@types/node": "24.10.6",
     "dotenv": "17.2.3",
     "eslint": "8.57.1",
     "eslint-config-next": "16.1.1",
